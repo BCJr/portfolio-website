@@ -58,7 +58,6 @@ section {
 
 .hero-section {
     font-family: 'Franklin Gothic URW';
-    margin-top: 10vh;
     text-align: center;
 }
 
@@ -71,6 +70,7 @@ section {
 .hero-section h1 span {
     font-size: 36px;
     font-weight: 100;
+    color:rgb(237, 222, 146)
 }
 
 footer {
@@ -209,8 +209,25 @@ a:hover {
 
 /* ----- Stack page styling ----- */
 
+#side-by-side {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.stack {
+    padding: 15px 0px 0px 0px;
+}
+
 .stack h2 {
     margin: 2px;
+}
+
+.projects {
+    padding: 15px 0px 0px 0px;    
+}
+
+.projects a {
+    color:rgb(237, 222, 146);
 }
 
 /* ----- Contact page ----- */

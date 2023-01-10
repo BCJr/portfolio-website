@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Piano</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="piano-style.css">
+   
+
+</head>
+
+<body>
+    <header>
+        <ul>
+            <a href="../../../index.html"><li>Home</li></a>
+        </ul>
+    </header>
+
+    <div id="piano">
+
+        <div class="buttons">
+            <button type="button" 
+                onclick="displayToggle()">
+                Display
+            </button>
+
+            <button type="button"
+                onclick="clearDisplay()">
+                Clear
+            </button>
+        </div>
+
+        <div class="displayScreen">
+            <p>Hello</p>
+        </div>
+
+        <div class="keys">
+
+            <div class="black-keys">
+                <div class="key black-key"
+                    id="2"></div>
+                <div class="key black-key"
+                    id="4"></div>
+                <div class="key black-key"
+                    id="7"></div>
+                <div class="key black-key"
+                    id="9"></div>
+                <div class="key black-key"
+                    id="11"></div>
+                <div class="key black-key"
+                    id="14"></div>
+                <div class="key black-key"
+                    id="16"></div>
+                <div class="key black-key"
+                    id="19"></div>
+                <div class="key black-key"
+                    id="21"></div>
+                <div class="key black-key"
+                    id="23"></div>
+
+            </div>
+
+            <div class="white-keys">
+                <div class="key white-key"
+                    id="1"></div>
+                <div class="key white-key"
+                    id="3"></div>
+                <div class="key white-key"
+                    id="5"></div>
+                <div class="key white-key"
+                    id="6"></div>
+                <div class="key white-key"
+                    id="8"></div>
+                <div class="key white-key"
+                    id="10"></div>
+                <div class="key white-key"
+                    id="12"></div>
+                <div class="key white-key"
+                    id="13"></div>
+                <div class="key white-key"
+                    id="15"></div>
+                <div class="key white-key"
+                    id="17"></div>
+                <div class="key white-key"
+                    id="18"></div>
+                <div class="key white-key"
+                    id="20"></div>
+                <div class="key white-key"
+                    id="22"></div>
+                <div class="key white-key"
+                    id="24"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="piano-app.js"></script>
+
+    <footer>
+        <div class="options">
+            <a href="../stack.html"><h3>STACK</h3></a>
+        </div>
+        <ul>
+            <a href="https://github.com/BCJr">
+                <li>GitHub</li></a>
+            <a href="https://www.linkedin.com/in/benjaminfranklinconnellyjr/">
+                <li>LinkedIn</li></a>
+        </ul>
+    </footer>
+
+</body>
+</html>
